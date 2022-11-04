@@ -1,0 +1,23 @@
+@page "/vehiculos"
+
+@using Data.Models
+
+<PageTitle>Vehiculos</PageTitle>
+
+<h1>Lista de Vehiculos</h1>
+
+<label for="txtVehiculoID">VehiculoID</label>
+<input @ind="VehiculoID">
+<label for="txtMarca">Marca</label>
+<input @ind="Marca">
+<label for="txtModelo">Modelo</label>
+<input @ind="Modelo">
+<label for="txtAño">Año</label>
+<input @ind="Año">
+<label for="txtColor">Color</label>
+<input @ind="Color">
+
+<div class="mt-3"></div>
+<button class="btn">
+    <span class='oi @("oi-pencil")'></span>
+</button>
